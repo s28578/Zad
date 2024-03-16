@@ -13,9 +13,9 @@ class Program
     public static void WyliczSrednia(int[] liczby)
     {
         int suma = 0;
-        foreach (int x in liczby)
+        foreach (int t in liczby)
         {
-            suma += x;
+            suma += t;
         }
 
         int srednia;
