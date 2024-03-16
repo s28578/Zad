@@ -21,5 +21,17 @@ class Program
         int srednia;
         srednia = suma / liczby.Length;
     }
+
+    public static int ZnajdzMax(int[] liczby)
+    {
+        int max = liczby[0];
+        foreach (int x in liczby)
+        {
+            if (x > max)
+                max = x;
+        }
+
+        return max;
+    }
     
 }
